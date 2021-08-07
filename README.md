@@ -6,4 +6,5 @@
 
 http://download.virtualbox.org/virtualbox/5.2.44/
 
-## https://github.com/gobolinux/Recipes/issues/136#issuecomment-892838195
+## xfce
+https://github.com/gobolinux/Recipes/issues/136#issuecomment-892838195
