@@ -59,4 +59,6 @@ file:///Users/root/Desktop/file.txt
 
 ### Google Search Query
 
-`DocBook catalog.xml configure: error: could not find DocBook XML DTD V4.3 in XML catalog`
+```
+DocBook catalog.xml configure: error: could not find DocBook XML DTD V4.3 in XML catalog
+```
