@@ -34,6 +34,10 @@ find / -name "catalog"
 ```
 
 ```
+nano /Data/Variable/lib/xml/catalog
+```
+
+```
 root@LiveCD ~]     
 find / -name "catalog.xml"
 /Data/Variable/run/rootfsbase/Programs/DocBook-XSL-Stylesheets/1.79.1/share/xml/docbook/stylesheet/docbook-xsl/catalog.xml
