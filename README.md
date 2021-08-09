@@ -64,3 +64,4 @@ gtk-doc DocBook catalog.xml configure: error: could not find DocBook XML DTD V4.
 ```
 
 
+Worth A try: https://trac.macports.org/ticket/17662
