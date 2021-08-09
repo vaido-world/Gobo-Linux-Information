@@ -1,0 +1,13 @@
+/Data/Variable/run/overlayfs/Data/Compile/Sources/gtk-doc-1.33.0/config.log:417:configure:9440: checking for DocBook XML DTD V4.3 in XML catalog
+/Data/Variable/run/overlayfs/Data/Compile/Sources/gtk-doc-1.33.0/config.log:418:configure:9443: $XMLCATALOG --noout "$XML_CATALOG_FILE" "-//OASIS//DTD DocBook XML V4.3//EN" >&2
+/Data/Variable/run/overlayfs/Data/Compile/Sources/gtk-doc-1.33.0/config.log:419:No entry for PUBLIC -//OASIS//DTD DocBook XML V4.3//EN
+/Data/Variable/run/overlayfs/Data/Compile/Sources/gtk-doc-1.33.0/config.log:422:configure:9454: error: could not find DocBook XML DTD V4.3 in XML catalog
+/Data/Variable/run/overlayfs/Data/Compile/Sources/gtk-doc-1.33.0/configure:12700:		{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for DocBook XML DTD V4.3 in XML catalog" >&5
+/Data/Variable/run/overlayfs/Data/Compile/Sources/gtk-doc-1.33.0/configure:12701:$as_echo_n "checking for DocBook XML DTD V4.3 in XML catalog... " >&6; }
+/Data/Variable/run/overlayfs/Data/Compile/Sources/gtk-doc-1.33.0/configure:12703:		{ { $as_echo "$as_me:${as_lineno-$LINENO}: \$XMLCATALOG --noout \"\$XML_CATALOG_FILE\" \"-//OASIS//DTD DocBook XML V4.3//EN\" >&2"; } >&5
+/Data/Variable/run/overlayfs/Data/Compile/Sources/gtk-doc-1.33.0/configure:12704:  ($XMLCATALOG --noout "$XML_CATALOG_FILE" "-//OASIS//DTD DocBook XML V4.3//EN" >&2) 2>&5
+/Data/Variable/run/overlayfs/Data/Compile/Sources/gtk-doc-1.33.0/configure:12714:		as_fn_error $? "could not find DocBook XML DTD V4.3 in XML catalog" "$LINENO" 5
+/Data/Variable/run/overlayfs/Data/Compile/Sources/gtk-doc-1.33.0/configure:12718:		{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for DocBook XSL Stylesheets in XML catalog" >&5
+/Data/Variable/run/overlayfs/Data/Compile/Sources/gtk-doc-1.33.0/configure:12719:$as_echo_n "checking for DocBook XSL Stylesheets in XML catalog... " >&6; }
+/Data/Variable/run/overlayfs/Data/Compile/Sources/gtk-doc-1.33.0/configure:12732:		as_fn_error $? "could not find DocBook XSL Stylesheets in XML catalog" "$LINENO" 5
+/Data/Variable/run/overlayfs/Data/Compile/Sources/gtk-doc-1.33.0/autom4te.cache/output.1:12700:		{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for DocBook XML DTD V4.3 in XML catalog" >&5
