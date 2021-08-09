@@ -20,3 +20,7 @@ https://github.com/gobolinux/Recipes/issues/136#issuecomment-892838195
 
 
 `find / catalog`
+
+```
+find / catalog -not -path "/System/Kernel/*"  -not -path "/Programs/Python*" -not -path "/Programs/OpenSSL*"
+```
