@@ -13,3 +13,10 @@ https://github.com/gobolinux/Recipes/issues/136#issuecomment-892838195
 ## Search for DocBook
 
 `grep -rnw '/' -e 'DocBook'`
+
+
+https://github.com/gobolinux/Recipes/issues/136#issuecomment-892838195
+
+
+
+`find / catalog`
