@@ -84,3 +84,6 @@ https://mail.gnome.org/archives/gtk-osx-users-list/2015-January/msg00000.html
 
 ## `/opt` equals `/Programs`?
 https://unix.stackexchange.com/questions/210770/which-linux-distribution-places-all-applications-in-opt/215734#215734
+
+
+https://github.com/vaido-world/Gobo-Linux-Information/blob/0849f65ab180fa0e12c5a78935ac6624d1682a2b/config.log#L413
