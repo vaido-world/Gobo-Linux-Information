@@ -55,3 +55,8 @@ file:///Users/root/Desktop/file.txt
 ```
 <nextCatalog catalog="file:///Programs/DocBook-XSL-Stylesheets/1.79.1/share/xml/docbook/stylesheet/docbook-xsl/catalog.xml"/>
 ```
+
+
+### Google Search Query
+
+`DocBook catalog.xml configure: error: could not find DocBook XML DTD V4.3 in XML catalog`
