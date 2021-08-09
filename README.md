@@ -80,3 +80,7 @@ https://lists.macports.org/pipermail/macports-tickets/2009-September/039793.html
 
 ## Removing locally the whole gtk-doc from configure script
 https://mail.gnome.org/archives/gtk-osx-users-list/2015-January/msg00000.html
+
+
+## `/opt` equals `/Programs`?
+https://unix.stackexchange.com/questions/210770/which-linux-distribution-places-all-applications-in-opt/215734#215734
