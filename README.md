@@ -77,3 +77,6 @@ try to `nano /Data/Variable/run/rootfsbase/Data/Variable/lib/xml/catalog`
 https://trac.macports.org/ticket/17560
 
 https://lists.macports.org/pipermail/macports-tickets/2009-September/039793.html
+
+## Removing locally the whole gtk-doc from configure script
+https://mail.gnome.org/archives/gtk-osx-users-list/2015-January/msg00000.html
