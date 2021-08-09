@@ -75,3 +75,5 @@ try to `nano /Data/Variable/run/rootfsbase/Data/Variable/lib/xml/catalog`
 `could not find DocBook XML DTD  in XML catalog -Stylesheets`
 
 https://trac.macports.org/ticket/17560
+
+https://lists.macports.org/pipermail/macports-tickets/2009-September/039793.html
