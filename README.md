@@ -73,3 +73,5 @@ try to `nano /Data/Variable/run/rootfsbase/Data/Variable/lib/xml/catalog`
 ### New Google Query
 
 `could not find DocBook XML DTD  in XML catalog -Stylesheets`
+
+https://trac.macports.org/ticket/17560
