@@ -52,6 +52,8 @@ file:///Users/root/Desktop/file.txt
 
 ### Finished
 
+#### This resolves only `could not find DocBook XSL Stylesheets in XML catalog`
+
 ```
 <nextCatalog catalog="file:///Programs/DocBook-XSL-Stylesheets/1.79.1/share/xml/docbook/stylesheet/docbook-xsl/catalog.xml"/>
 ```
