@@ -44,3 +44,8 @@ find / -name "catalog.xml"
 /Programs/DocBook-XSL-Stylesheets/1.79.1/share/xml/docbook/stylesheet/docbook-xsl/catalog.xml
 
 ```
+
+### Example
+```
+file:///Users/root/Desktop/file.txt
+```
