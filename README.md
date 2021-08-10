@@ -163,3 +163,15 @@ http://www.sagehill.net/docbookxsl/WriteCatalog.html
 </catalog>
 
 ```
+
+
+Before that: 
+```
+InstallPackage https://gobolinux.org/packages/017/Fuse--2.9.7--x86_64.tar.bz2
+InstallPackage https://gobolinux.org/packages/017/UnionFS-Fuse--2.1--x86_64.tar.bz2
+```
+Removing all the Delegates in the `nano /Data/Variable/lib/xml/catalog`  
+And   Compile Docbook-xml-dtd` with skipping Compilation of existing packages.
+Also Confirming that 
+
+Source: https://lists.macports.org/pipermail/macports-tickets/2009-September/039793.html
