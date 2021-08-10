@@ -184,3 +184,7 @@ https://forum.xfce.org/viewtopic.php?id=8261
 
 
 https://www.google.com/search?client=firefox-b-d&q=how+to+launch+xfce
+
+`startxfce4`
+
+https://wiki.xfce.org/faq#starting_xfce
