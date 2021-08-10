@@ -133,3 +133,6 @@ Thunar also depends on DocBook, so it has the same issue as xfce.
 
 `rm  /Data/Variable/lib/xml/catalog`
 
+
+## Some Catalog tutorial
+http://www.sagehill.net/docbookxsl/WriteCatalog.html
