@@ -172,6 +172,7 @@ InstallPackage https://gobolinux.org/packages/017/UnionFS-Fuse--2.1--x86_64.tar.
 ```
 Removing all the Delegates in the `nano /Data/Variable/lib/xml/catalog`  
 And   Compile Docbook-xml-dtd` with skipping Compilation of existing packages.
-Also Confirming that 
+Also Confirming to overwrite the `/Data/Variable/lib/xml/catalog` (Seems to have scripts that add new Delegate entries)
+
 
 Source: https://lists.macports.org/pipermail/macports-tickets/2009-September/039793.html
