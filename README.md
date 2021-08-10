@@ -178,13 +178,19 @@ Also Confirming to overwrite the `/Data/Variable/lib/xml/catalog` (Seems to have
 Source: https://lists.macports.org/pipermail/macports-tickets/2009-September/039793.html
 
 ## Starting startx with xfce
-`make startx launch xfce`
+Quit the AwesomeWM  
+
+`startxfce4`
+
+https://www.google.com/search?client=firefox-b-d&q=how+to+launch+xfce
+
+Incomplete Compilation and takes around 40 minutes
+However it is possible to get the cursor after opening Firefox Browser.
+
+## make startx launch xfce
 https://forum.xfce.org/viewtopic.php?id=8261
 
 
 
-https://www.google.com/search?client=firefox-b-d&q=how+to+launch+xfce
-
-`startxfce4`
 
 https://wiki.xfce.org/faq#starting_xfce
