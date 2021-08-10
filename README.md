@@ -180,3 +180,7 @@ Source: https://lists.macports.org/pipermail/macports-tickets/2009-September/039
 ## Starting startx with xfce
 `make startx launch xfce`
 https://forum.xfce.org/viewtopic.php?id=8261
+
+
+
+https://www.google.com/search?client=firefox-b-d&q=how+to+launch+xfce
