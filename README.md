@@ -127,3 +127,9 @@ root@LiveCD ~]
 It is possible to run Thunar File Manager by denying all the dependencies at first.  
 Thunar also depends on DocBook, so it has the same issue as xfce.
 `Compile thunar` 
+
+
+## Removing this catalog xfce .configure seems to give some clues that it takes the catalog information from here.
+
+`rm  /Data/Variable/lib/xml/catalog`
+
