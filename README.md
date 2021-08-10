@@ -138,7 +138,7 @@ Thunar also depends on DocBook, so it has the same issue as xfce.
 http://www.sagehill.net/docbookxsl/WriteCatalog.html
 
 
-## Catalog example
+## Catalog example Working
 
 ```
 <?xml version="1.0"?>
@@ -184,8 +184,9 @@ Quit the AwesomeWM
 
 https://www.google.com/search?client=firefox-b-d&q=how+to+launch+xfce
 
-Incomplete Compilation and takes around 40 minutes
-However it is possible to get the cursor after opening Firefox Browser.
+Incomplete Compilation and takes around 40 minutes  
+However it is possible to get the cursor after opening Firefox Browser.  
+https://github.com/vaido-world/Gobo-Linux-Information/blob/main/Successfull-docbook.log
 
 ## make startx launch xfce
 https://forum.xfce.org/viewtopic.php?id=8261
