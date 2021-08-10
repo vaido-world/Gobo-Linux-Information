@@ -195,3 +195,8 @@ https://forum.xfce.org/viewtopic.php?id=8261
 
 
 https://wiki.xfce.org/faq#starting_xfce
+
+
+### Resolve last build?
+
+https://packages.debian.org/stretch/libpcre2-8-0
