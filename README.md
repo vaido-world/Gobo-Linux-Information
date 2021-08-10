@@ -176,3 +176,7 @@ Also Confirming to overwrite the `/Data/Variable/lib/xml/catalog` (Seems to have
 
 
 Source: https://lists.macports.org/pipermail/macports-tickets/2009-September/039793.html
+
+## Starting startx with xfce
+`make startx launch xfce`
+https://forum.xfce.org/viewtopic.php?id=8261
