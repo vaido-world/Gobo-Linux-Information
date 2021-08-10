@@ -87,3 +87,25 @@ https://unix.stackexchange.com/questions/210770/which-linux-distribution-places-
 
 
 https://github.com/vaido-world/Gobo-Linux-Information/blob/0849f65ab180fa0e12c5a78935ac6624d1682a2b/config.log#L413
+
+
+```
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.19... yes
+checking for a Python interpreter with version >= 3.2... python3
+checking for python3... /usr/bin/python3
+checking for python3 version... 3.8
+checking for python3 platform... linux
+checking for python3 script directory... ${prefix}/lib/python3.8/site-packages
+checking for python3 extension module directory... ${exec_prefix}/lib/python3.8/site-packages
+checking for xsltproc... /usr/bin/xsltproc
+checking for dblatex... no
+checking for fop... no
+configure: WARNING: neither dblatex nor fop found, so no pdf output from xml
+checking for XML catalog... /Data/Variable/lib/xml/catalog
+checking for xmlcatalog... /usr/bin/xmlcatalog
+checking for DocBook XML DTD V4.3 in XML catalog... not found
+configure: error: could not find DocBook XML DTD V4.3 in XML catalog
+PrepareProgram: configure failed.
+Compile: GTK-Doc 1.33.0 - Configuration failed.
+```
