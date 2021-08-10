@@ -123,3 +123,7 @@ root@LiveCD ~]
 
 
 ```
+
+It is possible to run Thunar File Manager by denying all the dependencies at first.  
+Thunar also depends on DocBook, so it has the same issue as xfce.
+`Compile thunar` 
