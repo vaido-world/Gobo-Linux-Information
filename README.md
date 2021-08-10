@@ -111,3 +111,15 @@ Compile: GTK-Doc 1.33.0 - Configuration failed.
 ```
 
 https://raw.githubusercontent.com/gobolinux/Recipes/master/Git/2.29.2/Recipe
+
+
+```
+root@LiveCD ~]echo $goboShared
+/usr/share
+root@LiveCD ~]echo $XML_CATALOG_FILES
+/Data/Variable/lib/xml/catalog
+root@LiveCD ~]
+
+
+
+```
