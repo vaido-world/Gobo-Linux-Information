@@ -210,6 +210,8 @@ sed -i '/delegateSystem/c\' /Data/Variable/lib/xml/catalog
 sed -i '/delegateURI/c\' /Data/Variable/lib/xml/catalog  
 
 
+### Manually removing the lines.
+
 ![image](https://user-images.githubusercontent.com/21064622/128975155-9229e00f-45e9-4487-9d85-4f47bc20444e.png)  
 `nano  /Data/Variable/lib/xml/catalog`
 `Use shift and keyboard arrow down button to select.`
