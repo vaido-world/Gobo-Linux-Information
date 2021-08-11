@@ -200,3 +200,14 @@ https://wiki.xfce.org/faq#starting_xfce
 ### Resolve last build?
 
 https://packages.debian.org/stretch/libpcre2-8-0
+
+
+
+### Automating the problem
+
+sed -i '/delegatePublic/c\' /Data/Variable/lib/xml/catalog
+sed -i '/delegateSystem/c\' /Data/Variable/lib/xml/catalog
+sed -i '/delegateURI/c\' /Data/Variable/lib/xml/catalog
+
+
+![image](https://user-images.githubusercontent.com/21064622/128975019-2380da26-180a-46e2-8f9a-ebd8bea3a418.png)
