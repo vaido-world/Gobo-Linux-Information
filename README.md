@@ -206,6 +206,7 @@ https://packages.debian.org/stretch/libpcre2-8-0
 `configure: error: could not find DocBook XML DTD V4.3 in XML catalog`
 
 This error does NOT happen due to version mismatch.    
+
 This Error happens when the paths in the `/Data/Variable/lib/xml/catalog` are incorrectly pointed.  
 To resolve this error, we have to remove the lines with incorrect paths and   
 let the Docbook-xml-dtd scripts autogenerate them on Compilation.  
