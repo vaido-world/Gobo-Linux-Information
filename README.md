@@ -220,7 +220,7 @@ Remove every single line that contains:
 Save the file.  
 `Compile Docbook-xml-dtd` and let it autogenerate these fields with correct paths.  
 
-### Manually removing lines using Nano Editor
+### Manually removing lines using Nano Editor (Example)
 
 ![image](https://user-images.githubusercontent.com/21064622/128975155-9229e00f-45e9-4487-9d85-4f47bc20444e.png)  
 `nano  /Data/Variable/lib/xml/catalog`
