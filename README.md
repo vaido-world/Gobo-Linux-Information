@@ -210,4 +210,5 @@ sed -i '/delegateSystem/c\' /Data/Variable/lib/xml/catalog
 sed -i '/delegateURI/c\' /Data/Variable/lib/xml/catalog
 
 
-![image](https://user-images.githubusercontent.com/21064622/128975019-2380da26-180a-46e2-8f9a-ebd8bea3a418.png)
+![image](https://user-images.githubusercontent.com/21064622/128975155-9229e00f-45e9-4487-9d85-4f47bc20444e.png)
+
