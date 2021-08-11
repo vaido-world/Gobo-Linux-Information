@@ -270,3 +270,5 @@ Dependency: libpcre2
 https://www.linuxfromscratch.org/blfs/view/10.0/general/pcre2.html   
 
 https://github.com/gobolinux/Recipes/tree/master/PCRE
+
+`Compile PCRE`
