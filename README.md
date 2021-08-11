@@ -216,8 +216,9 @@ Remove every single line that contains:
 * delegatePublic  
 * delegateSystem  
 * delegateURI  
+
 Save the file.  
-`Compile Docbook-xml-dtd` and let it autogenerate these fields with correct paths.
+`Compile Docbook-xml-dtd` and let it autogenerate these fields with correct paths.  
 
 
 
