@@ -211,6 +211,14 @@ This Error happens when the paths in the `/Data/Variable/lib/xml/catalog` are in
 To resolve this error, we have to remove the lines with incorrect paths and   
 let the Docbook-xml-dtd scripts autogenerate them on Compilation.  
 
+### Finding the problem
+Before this error happens the XML catalog location is printed out like this:
+`checking for XML catalog... /Data/Variable/lib/xml/catalog`  
+Removing this file with the command `rm /Data/Variable/lib/xml/catalog` 
+
+and re-running `Compile xfce` will let you see that this line changes to something like:
+`checking for XML catalog... not found` 
+
 
 ### Automating the problem resolvance
 This script removes every line that contains strings `delegatePublic` `delegateSystem` `delegateURI`.  
