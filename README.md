@@ -213,11 +213,11 @@ sed -i '/delegateURI/c\' /Data/Variable/lib/xml/catalog
 ### Manually removing the lines.
 Open `/Data/Variable/lib/xml/catalog` File.  
 Remove every single line that contains:   
-* delegatePublic
-* delegateSystem
-* delegateURI
-Save the file.
-`Compile Docbook-xml-dtd`
+* delegatePublic  
+* delegateSystem  
+* delegateURI  
+Save the file.  
+`Compile Docbook-xml-dtd` and let it autogenerate these fields with correct paths.
 
 
 
