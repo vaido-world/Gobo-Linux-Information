@@ -216,7 +216,8 @@ Remove every single line that contains:
 * delegatePublic
 * delegateSystem
 * delegateURI
-* 
+Save the file.
+`Compile Docbook-xml-dtd`
 
 
 
