@@ -211,7 +211,7 @@ This Error happens when the paths in the `/Data/Variable/lib/xml/catalog` are in
 To resolve this error, we have to remove the lines with incorrect paths and   
 let the Docbook-xml-dtd scripts autogenerate them on Compilation.  
 
-### Finding the problem
+### How I found the affected file.
 Before this error happens the XML catalog location is printed out like this:   
 
 ```
