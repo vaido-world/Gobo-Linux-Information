@@ -211,8 +211,8 @@ sed -i '/delegateURI/c\' /Data/Variable/lib/xml/catalog
 
 
 ![image](https://user-images.githubusercontent.com/21064622/128975155-9229e00f-45e9-4487-9d85-4f47bc20444e.png)  
-
-`CTRL + K`  
-`CTRL + X`  
-`y` 
-`Enter`  
+`nano  /Data/Variable/lib/xml/catalog`
+1. `CTRL + K`  
+2. `CTRL + X`  
+3. `y`  
+4. `Enter`    
