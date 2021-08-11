@@ -276,3 +276,6 @@ https://github.com/gobolinux/Recipes/tree/master/PCRE
 `Compile PCRE`
 
 
+
+### Shutdown on AwesomeWM
+`shutdown -h 0`
