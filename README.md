@@ -201,6 +201,11 @@ https://wiki.xfce.org/faq#starting_xfce
 
 https://packages.debian.org/stretch/libpcre2-8-0
 
+ 
+
+`configure: error: could not find DocBook XML DTD V4.3 in XML catalog`
+
+This error does NOT happen due to version mismatch.  
 
 
 ### Automating the problem resolvance
