@@ -225,7 +225,8 @@ and re-running `Compile xfce` will let you see that this line changes to somethi
 checking for XML catalog... not found
 ```
 
-That's how I suspected that `/Data/Variable/lib/xml/catalog` is actually the affected file to look up.
+That's how I suspected that `/Data/Variable/lib/xml/catalog` is actually the affected file to look up.  
+The end.  
 
 
 ### Automating the problem resolvance
