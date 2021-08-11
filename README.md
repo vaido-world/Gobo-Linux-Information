@@ -204,11 +204,11 @@ https://packages.debian.org/stretch/libpcre2-8-0
 
 
 ### Automating the problem
-
+```
 sed -i '/delegatePublic/c\' /Data/Variable/lib/xml/catalog  
 sed -i '/delegateSystem/c\' /Data/Variable/lib/xml/catalog  
 sed -i '/delegateURI/c\' /Data/Variable/lib/xml/catalog  
-
+```
 
 ### Manually removing the lines.
 
