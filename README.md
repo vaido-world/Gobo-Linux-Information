@@ -211,11 +211,12 @@ sed -i '/delegateURI/c\' /Data/Variable/lib/xml/catalog
 ```
 
 ### Manually removing the lines.
-Open `/Data/Variable/lib/xml/catalog` File.
-Remove every single line that contains: 
+Open `/Data/Variable/lib/xml/catalog` File.  
+Remove every single line that contains:   
 * delegatePublic
 * delegateSystem
 * delegateURI
+* 
 
 
 
