@@ -216,4 +216,4 @@ sed -i '/delegateURI/c\' /Data/Variable/lib/xml/catalog
 1. `CTRL + K`  - Remove selected text.
 2. `CTRL + X`  - Close and Save
 3. `y`         - Confirm Overwrite
-4. `Enter`  - 
+4. `Enter`     - Confirm File Name
