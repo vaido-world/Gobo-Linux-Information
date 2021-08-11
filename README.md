@@ -203,7 +203,7 @@ https://packages.debian.org/stretch/libpcre2-8-0
 
 
 
-### Automating the problem
+### Automating the problem resolvance
 ```
 sed -i '/delegatePublic/c\' /Data/Variable/lib/xml/catalog  
 sed -i '/delegateSystem/c\' /Data/Variable/lib/xml/catalog  
