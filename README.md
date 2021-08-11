@@ -204,10 +204,13 @@ https://packages.debian.org/stretch/libpcre2-8-0
 
 
 ### Automating the problem resolvance
+This script removes 
 ```
+#!/bin/bash
 sed -i '/delegatePublic/c\' /Data/Variable/lib/xml/catalog  
 sed -i '/delegateSystem/c\' /Data/Variable/lib/xml/catalog  
 sed -i '/delegateURI/c\' /Data/Variable/lib/xml/catalog  
+Compile Docbook-xml-dtd
 ```
 
 ### Manually removing the lines.
