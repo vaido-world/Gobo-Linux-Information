@@ -213,11 +213,17 @@ let the Docbook-xml-dtd scripts autogenerate them on Compilation.
 
 ### Finding the problem
 Before this error happens the XML catalog location is printed out like this:   
-`checking for XML catalog... /Data/Variable/lib/xml/catalog`    
+
+```
+checking for XML catalog... /Data/Variable/lib/xml/catalog
+```
+
 Removing this file with the command `rm /Data/Variable/lib/xml/catalog`   
 
 and re-running `Compile xfce` will let you see that this line changes to something like:  
-`checking for XML catalog... not found`   
+```
+checking for XML catalog... not found
+```
 
 That's how I suspected that `/Data/Variable/lib/xml/catalog` is actually the affected file to look up.
 
