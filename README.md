@@ -259,3 +259,12 @@ Save the file.
 2. `CTRL + X`  - Close and Save
 3. `y`         - Confirm Overwrite
 4. `Enter`     - Confirm File Name
+
+
+
+
+https://www.linuxfromscratch.org/blfs/view/10.0/gnome/vte.html  
+
+Dependency: libpcre2  
+
+https://www.linuxfromscratch.org/blfs/view/10.0/general/pcre2.html   
