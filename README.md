@@ -204,7 +204,8 @@ https://packages.debian.org/stretch/libpcre2-8-0
 
 
 ### Automating the problem resolvance
-This script removes every line that contains strings `delegatePublic` `delegateSystem` `delegateURI`.
+This script removes every line that contains strings `delegatePublic` `delegateSystem` `delegateURI`.  
+And `Docbook-xml-dtd` autogenerates them again on Compilation.
 ```
 #!/bin/bash
 sed -i '/delegatePublic/c\' /Data/Variable/lib/xml/catalog  
