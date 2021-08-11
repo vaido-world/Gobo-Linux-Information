@@ -227,8 +227,8 @@ Save the file.
 ### Manually removing lines using Nano Editor (Example)
 
 ![image](https://user-images.githubusercontent.com/21064622/128975155-9229e00f-45e9-4487-9d85-4f47bc20444e.png)  
-`nano  /Data/Variable/lib/xml/catalog`
-`Use shift and keyboard arrow down button to select.`
+`nano  /Data/Variable/lib/xml/catalog`  
+`Use shift and keyboard arrow down button to select.`  
 1. `CTRL + K`  - Remove selected text.
 2. `CTRL + X`  - Close and Save
 3. `y`         - Confirm Overwrite
