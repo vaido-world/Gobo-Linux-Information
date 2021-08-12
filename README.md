@@ -283,3 +283,5 @@ https://github.com/gobolinux/Recipes/tree/master/PCRE
 
 
 https://www.google.com/search?client=firefox-b-d&q=gobolinux+libblkid
+
+Compile utils-linux
