@@ -279,3 +279,7 @@ https://github.com/gobolinux/Recipes/tree/master/PCRE
 
 ### Shutdown on AwesomeWM
 `shutdown -h 0`
+
+
+
+https://www.google.com/search?client=firefox-b-d&q=gobolinux+libblkid
