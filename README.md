@@ -344,3 +344,8 @@ https://github.com/gobolinux/Recipes/tree/master/GTK%2B
 ### Next time on XFCE Compilation
 Remember to Copy the output of the errors and whole log  
 Also Research what kind of packages are required in the XFCE.
+
+
+
+### How to make dependency out of packages?
+How will the packages be installed in a right order if the order is resolved by dependencies.
