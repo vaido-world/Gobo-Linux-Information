@@ -341,4 +341,6 @@ For `Compile xfce-utils`
 https://github.com/gobolinux/Recipes/tree/master/GTK%2B
 
 
-### 
+### Next time on XFCE Compilation
+Remember to Copy the output of the errors and whole log  
+Also Research what kind of packages are required in the XFCE.
