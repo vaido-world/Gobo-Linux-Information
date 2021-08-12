@@ -289,5 +289,6 @@ Compile XFSProgs
 Compile utils-linux   
 
 
-### Maybe resolves Screensaver: 
+### Maybe resolves Screenshooter
+: 
 https://github.com/gobolinux/Recipes/blob/effe66610cad8f33b66634a9e3656a278a567e0b/XFCE/4.4.1/Resources/Dependencies#L19
