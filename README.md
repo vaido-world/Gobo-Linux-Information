@@ -333,3 +333,6 @@ done
 CreatePackage Programs/XFDesktop
 CreatePackage Programs/XFConf
 ```
+
+
+### Try to install `Compile gtk+ 2.0`
