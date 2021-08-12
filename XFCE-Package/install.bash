@@ -1,3 +1,6 @@
+InstallPackage https://gobolinux.org/packages/017/Fuse--2.9.7--x86_64.tar.bz2
+InstallPackage https://gobolinux.org/packages/017/UnionFS-Fuse--2.1--x86_64.tar.bz2
+
 curl -L "https://github.com/vaido-world/gobo/raw/main/XFCE-Package/XFCE--4.14--x86_64.tar.bz2" -O
 InstallPackage "XFCE--4.14--x86_64.tar.bz2"
 
