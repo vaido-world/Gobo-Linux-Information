@@ -1,8 +1,10 @@
 InstallPackage https://gobolinux.org/packages/017/Fuse--2.9.7--x86_64.tar.bz2
 InstallPackage https://gobolinux.org/packages/017/UnionFS-Fuse--2.1--x86_64.tar.bz2
 
-# Compile LibXFCE4Util 4.14.0
-Compile LibXFCE4Util 4.14.1
+Compile LibXFCE4Util 4.14.0
+Compile XFConf 4.14.4
+Compile LibXFCE4UI 4.14.1
+
 Compile EXO
 
 
