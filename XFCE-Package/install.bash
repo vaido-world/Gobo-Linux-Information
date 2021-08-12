@@ -9,6 +9,10 @@ Compile EXO
 
 InstallPackage "Garcon"
 
+Compile "GTK-Doc"
+Compile "LibGUdev"
+Compile "Thunar"
+
 
 curl -L "https://github.com/vaido-world/gobo/raw/main/XFCE-Package/XFCE--4.14--x86_64.tar.bz2" -O
 InstallPackage "XFCE--4.14--x86_64.tar.bz2"
