@@ -18,6 +18,8 @@ InstallPackage "Garcon"
     Compile "GTK-Doc"
   Compile "LibGUdev"
     Compile "LibWNCK"
+    
+    Compile "glib"
   Compile "XFCE4-Panel"
 Compile "Thunar"
 
