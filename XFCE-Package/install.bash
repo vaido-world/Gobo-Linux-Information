@@ -7,6 +7,8 @@ Compile LibXFCE4UI 4.14.1
 
 Compile EXO
 
+InstallPackage Garcon
+
 
 curl -L "https://github.com/vaido-world/gobo/raw/main/XFCE-Package/XFCE--4.14--x86_64.tar.bz2" -O
 InstallPackage "XFCE--4.14--x86_64.tar.bz2"
