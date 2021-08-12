@@ -336,3 +336,9 @@ CreatePackage Programs/XFConf
 
 
 ### Try to install `Compile gtk+ 2.0`
+For `Compile xfce-utils`
+
+https://github.com/gobolinux/Recipes/tree/master/GTK%2B
+
+
+### 
