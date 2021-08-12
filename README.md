@@ -301,3 +301,6 @@ https://github-wiki-see.page/m/gobolinux/Documentation/wiki/CreatePackage
 
 ### Precompiled packages in GoboLinux
 http://gobolinux.org/packages/016/
+
+### Text Editor
+`Compile gedit`
