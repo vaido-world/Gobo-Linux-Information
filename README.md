@@ -298,3 +298,6 @@ https://github.com/gobolinux/Recipes/blob/effe66610cad8f33b66634a9e3656a278a567e
 ### Create package out of Compiled source
 https://gobolinux.org/scripts.html
 https://github-wiki-see.page/m/gobolinux/Documentation/wiki/CreatePackage
+
+### Precompiled packages in GoboLinux
+http://gobolinux.org/packages/016/
