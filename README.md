@@ -303,4 +303,6 @@ https://github-wiki-see.page/m/gobolinux/Documentation/wiki/CreatePackage
 http://gobolinux.org/packages/016/
 
 ### Text Editor
-`Compile gedit`
+`Compile gedit` Did not workout
+
+`Compile emacs`
