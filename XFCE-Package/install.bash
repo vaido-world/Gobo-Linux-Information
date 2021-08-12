@@ -9,6 +9,13 @@ Compile EXO
 
 InstallPackage "Garcon"
 
+
+
+  sed -i '/delegatePublic/c\' /Data/Variable/lib/xml/catalog  
+  sed -i '/delegateSystem/c\' /Data/Variable/lib/xml/catalog  
+  sed -i '/delegateURI/c\' /Data/Variable/lib/xml/catalog
+  Compile Docbook-xml-dtd --no-dependencies --batch
+
 Compile "GTK-Doc"
 Compile "LibGUdev"
 Compile "Thunar"
