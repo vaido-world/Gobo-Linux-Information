@@ -328,3 +328,8 @@ fi
 done
 
 ```
+
+```
+CreatePackage Programs/XFDesktop
+CreatePackage Programs/XFConf
+```
