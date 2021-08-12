@@ -306,3 +306,25 @@ http://gobolinux.org/packages/016/
 `Compile gedit` Did not workout
 
 `Compile emacs`
+
+
+### Create GoboLinux Package
+
+```
+#!/bin/bash
+
+cd /Programs/
+for d in */ ; do
+
+    if [[ $d == *"XFCE"* ]]; then
+
+    CreatePackage "$d"
+	
+    echo "$d"
+fi
+
+    
+    
+done
+
+```
