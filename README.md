@@ -348,4 +348,7 @@ Also Research what kind of packages are required in the XFCE.
 
 
 ### How to make dependency out of packages?
-How will the packages be installed in a right order if the order is resolved by dependencie... And the Dependencies do not search for Packages in the Current Packages Location.
+How will the packages be installed in a right order if the order is resolved by dependencie...   
+And the Dependencies do not search for Packages in the Current Packages Location.   
+
+I'll probably just copy to the packages location of the gobolinux and let dependency versioning sort out the things.
