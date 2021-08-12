@@ -19,6 +19,7 @@ InstallPackage "Garcon"
   Compile "LibGUdev"
     Compile "LibWNCK"
     
+      Compile "util-linux"
     Compile "glib"
   Compile "XFCE4-Panel"
 Compile "Thunar"
