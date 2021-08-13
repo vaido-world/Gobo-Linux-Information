@@ -1,3 +1,9 @@
+### Release
+
+curl vaido.world/gobo/xfce.bash
+
+### Old
+
 CreatePackage # Gobo-Linux-Information
 
 `curl https://vaido.world/Gobo-Linux-Information/vbox.bash | bash`
