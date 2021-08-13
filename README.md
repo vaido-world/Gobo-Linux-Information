@@ -484,6 +484,6 @@ ECHO Exit AwesomeWM and Type into terminal:   startxfce4
 
 
 ## XFCE Utils
-`  Compile LibXFCEGUI4` https://askubuntu.com/questions/210210/pkg-config-path-environment-variable
-`Compile xfce-utils`
+`  Compile LibXFCEGUI4` https://askubuntu.com/questions/210210/pkg-config-path-environment-variable  
+`Compile xfce-utils`  
 
