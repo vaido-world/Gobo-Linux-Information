@@ -1,4 +1,4 @@
-# Gobo-Linux-Information
+CreatePackage # Gobo-Linux-Information
 
 `curl https://vaido.world/Gobo-Linux-Information/vbox.bash | bash`
 
@@ -406,39 +406,78 @@ drwxr-xr-x 3 root root  80 Aug 13 09:30 XFCE
 CTRL + ALT + shift and select for Column mode selection using AwesomeWM in GitHub
 
 ```
-Fuse
-UnionFS-Fuse
-DocBook-XML-DTD
-PCRE2
-Util-Linux
-LibXFCE4Util
-XFConf
-LibXFCE4UI
-EXO
-Garcon
-GTK-Doc
-LibGUdev
-LibWNCK
-XFCE4-Panel
-LibExif
-Thunar
-Thunar-Volman
-XFCE4-AppFinder
-UPower
-XFCE4-Power-Manager
-HwData
-LibWacom
-Check
-LibInput
-ISO-Codes
-LibXKlavier
-XFCE4-Settings
-XFCE4-Session
-VTE
-XFCE4-Terminal
-XFDesktop
-XFWM4
-XFWM4-Themes
-XFCE
+CreatePackage Fuse
+CreatePackage UnionFS-Fuse
+CreatePackage DocBook-XML-DTD
+CreatePackage PCRE2
+CreatePackage Util-Linux
+CreatePackage LibXFCE4Util
+CreatePackage XFConf
+CreatePackage LibXFCE4UI
+CreatePackage EXO
+CreatePackage Garcon
+CreatePackage GTK-Doc
+CreatePackage LibGUdev
+CreatePackage LibWNCK
+CreatePackage XFCE4-Panel
+CreatePackage LibExif
+CreatePackage Thunar
+CreatePackage Thunar-Volman
+CreatePackage XFCE4-AppFinder
+CreatePackage UPower
+CreatePackage XFCE4-Power-Manager
+CreatePackage HwData
+CreatePackage LibWacom
+CreatePackage Check
+CreatePackage LibInput
+CreatePackage ISO-Codes
+CreatePackage LibXKlavier
+CreatePackage XFCE4-Settings
+CreatePackage XFCE4-Session
+CreatePackage VTE
+CreatePackage XFCE4-Terminal
+CreatePackage XFDesktop
+CreatePackage XFWM4
+CreatePackage XFWM4-Themes
+CreatePackage XFCE
 
 ```
+
+```
+InstallPackage Fuse
+InstallPackage UnionFS-Fuse
+InstallPackage DocBook-XML-DTD
+InstallPackage PCRE2
+InstallPackage Util-Linux
+InstallPackage LibXFCE4Util
+InstallPackage XFConf
+InstallPackage LibXFCE4UI
+InstallPackage EXO
+InstallPackage Garcon
+InstallPackage GTK-Doc
+InstallPackage LibGUdev
+InstallPackage LibWNCK
+InstallPackage XFCE4-Panel
+InstallPackage LibExif
+InstallPackage Thunar
+InstallPackage Thunar-Volman
+InstallPackage XFCE4-AppFinder
+InstallPackage UPower
+InstallPackage XFCE4-Power-Manager
+InstallPackage HwData
+InstallPackage LibWacom
+InstallPackage Check
+InstallPackage LibInput
+InstallPackage ISO-Codes
+InstallPackage LibXKlavier
+InstallPackage XFCE4-Settings
+InstallPackage XFCE4-Session
+InstallPackage VTE
+InstallPackage XFCE4-Terminal
+InstallPackage XFDesktop
+InstallPackage XFWM4
+InstallPackage XFWM4-Themes
+InstallPackage XFCE
+
+```
+
