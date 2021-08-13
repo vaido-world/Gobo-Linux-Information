@@ -531,3 +531,9 @@ Please report bugs to <https://bugzilla.xfce.org/>.
 
 ### XFCE Visual Reference
 https://www.youtube.com/watch?v=9ABYlcmqQ-Q
+
+
+### This is where the chrome gets installed.
+```
+cd /Programs/Google-Chrome-Stable/92.0.4515.131_1/chrome
+```
