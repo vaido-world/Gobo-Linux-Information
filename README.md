@@ -553,3 +553,10 @@ https://github.com/gobolinux/Recipes/blob/effe66610cad8f33b66634a9e3656a278a567e
 `Compile XFCE-Extras`
 
 ### How to run Chrome as Root
+
+
+### xfce from source code
+https://archive.xfce.org/xfce/4.14/src/
+
+https://docs.xfce.org/xfce/building#choosing_your_xfce_version
+
