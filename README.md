@@ -355,3 +355,6 @@ I'll probably just copy to the packages location of the gobolinux and let depend
 
 
 Make a package for each compiled dependency
+
+### Scanning the log file and packing each dependency 
+Generating the InstallPackage script that would resolve dependencies and install the software.
