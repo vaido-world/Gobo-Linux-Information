@@ -498,3 +498,7 @@ ECHO Exit AwesomeWM and Type into terminal:   startxfce4
 ## Convert Text File to Unix From Dos
 https://stackoverflow.com/questions/16768776/convert-line-endings#comment52681661_16768848  
 `tr -d '\15\32' < install.bash > install-file-with-unix-line-endings.bash`   
+
+
+## No audio in xfce
+https://forum.xfce.org/viewtopic.php?id=7499
