@@ -509,3 +509,6 @@ I think installing xfce-mixer and toggling unmute might work.
 
 The reason why compiling xfce from AwesomeWm the sound works is because AwesomeWM unmutes by default by setting volume
 And this setting is transferred to the startxfce session.
+
+
+This can be tested by starting AwesomeWM after XFCE installation and try to up the volume.
