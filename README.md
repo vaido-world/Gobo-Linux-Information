@@ -562,3 +562,7 @@ https://docs.xfce.org/xfce/building#choosing_your_xfce_version
 
 https://docs.xfce.org/apps/start
 
+
+https://docs.xfce.org/xfce/display_managers
+
+https://www.xfce.org/about/tour46
