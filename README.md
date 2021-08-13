@@ -566,3 +566,7 @@ https://docs.xfce.org/apps/start
 https://docs.xfce.org/xfce/display_managers
 
 https://www.xfce.org/about/tour46
+
+https://docs.xfce.org/xfce/xfdesktop/advanced
+
+
