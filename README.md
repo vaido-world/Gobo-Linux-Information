@@ -361,41 +361,84 @@ Generating the InstallPackage script that would resolve dependencies and install
 
 
 
-### List Programs by last modification `ls -lt`
+### List Programs by last modification `ls -ltr`
 
 
 
 ```
-drwxr-xr-x 3 root root  80 Aug 13 09:27 XFDesktop
-drwxr-xr-x 3 root root  80 Aug 13 09:25 XFCE4-Terminal
-drwxr-xr-x 4 root root 100 Aug 13 09:24 VTE
-drwxr-xr-x 4 root root 100 Aug 13 09:22 XFCE4-Session
-drwxr-xr-x 4 root root 100 Aug 13 09:20 XFCE4-Settings
-drwxr-xr-x 3 root root  80 Aug 13 09:19 LibXKlavier
-drwxr-xr-x 3 root root  80 Aug 13 09:18 ISO-Codes
-drwxr-xr-x 3 root root  80 Aug 13 09:16 LibInput
-drwxr-xr-x 3 root root  80 Aug 13 09:15 Check
-drwxr-xr-x 3 root root  80 Aug 13 09:14 LibWacom
-drwxr-xr-x 3 root root  80 Aug 13 09:13 HwData
-drwxr-xr-x 4 root root 100 Aug 13 09:12 XFCE4-Power-Manager
-drwxr-xr-x 4 root root 100 Aug 13 09:10 UPower
-drwxr-xr-x 3 root root  80 Aug 13 09:09 XFCE4-AppFinder
-drwxr-xr-x 3 root root  80 Aug 13 09:08 Thunar-Volman
-drwxr-xr-x 4 root root 100 Aug 13 09:06 Thunar
-drwxr-xr-x 3 root root  80 Aug 13 09:01 LibExif
-drwxr-xr-x 4 root root 100 Aug 13 08:59 XFCE4-Panel
-drwxr-xr-x 3 root root  80 Aug 13 08:56 LibWNCK
-drwxr-xr-x 3 root root  80 Aug 13 08:55 LibGUdev
-drwxr-xr-x 3 root root  80 Aug 13 08:54 GTK-Doc
-drwxr-xr-x 4 root root 100 Aug 13 08:53 Garcon
-drwxr-xr-x 4 root root 100 Aug 13 08:51 EXO
-drwxr-xr-x 4 root root 100 Aug 13 08:48 LibXFCE4UI
-drwxr-xr-x 3 root root  80 Aug 13 08:47 XFConf
-drwxr-xr-x 3 root root  80 Aug 13 08:45 LibXFCE4Util
-drwxr-xr-x 1 root root  60 Aug 13 08:43 Util-Linux
-drwxr-xr-x 3 root root  80 Aug 13 08:34 PCRE2
-drwxr-xr-x 1 root root  60 Aug 13 08:28 DocBook-XML-DTD
-drwxr-xr-x 3 root root  80 Aug 13 08:26 UnionFS-Fuse
 drwxr-xr-x 1 root root 100 Aug 13 08:26 Fuse
+drwxr-xr-x 3 root root  80 Aug 13 08:26 UnionFS-Fuse
+drwxr-xr-x 1 root root  60 Aug 13 08:28 DocBook-XML-DTD
+drwxr-xr-x 3 root root  80 Aug 13 08:34 PCRE2
+drwxr-xr-x 1 root root  60 Aug 13 08:43 Util-Linux
+drwxr-xr-x 3 root root  80 Aug 13 08:45 LibXFCE4Util
+drwxr-xr-x 3 root root  80 Aug 13 08:47 XFConf
+drwxr-xr-x 4 root root 100 Aug 13 08:48 LibXFCE4UI
+drwxr-xr-x 4 root root 100 Aug 13 08:51 EXO
+drwxr-xr-x 4 root root 100 Aug 13 08:53 Garcon
+drwxr-xr-x 3 root root  80 Aug 13 08:54 GTK-Doc
+drwxr-xr-x 3 root root  80 Aug 13 08:55 LibGUdev
+drwxr-xr-x 3 root root  80 Aug 13 08:56 LibWNCK
+drwxr-xr-x 4 root root 100 Aug 13 08:59 XFCE4-Panel
+drwxr-xr-x 3 root root  80 Aug 13 09:01 LibExif
+drwxr-xr-x 4 root root 100 Aug 13 09:06 Thunar
+drwxr-xr-x 3 root root  80 Aug 13 09:08 Thunar-Volman
+drwxr-xr-x 3 root root  80 Aug 13 09:09 XFCE4-AppFinder
+drwxr-xr-x 4 root root 100 Aug 13 09:10 UPower
+drwxr-xr-x 4 root root 100 Aug 13 09:12 XFCE4-Power-Manager
+drwxr-xr-x 3 root root  80 Aug 13 09:13 HwData
+drwxr-xr-x 3 root root  80 Aug 13 09:14 LibWacom
+drwxr-xr-x 3 root root  80 Aug 13 09:15 Check
+drwxr-xr-x 3 root root  80 Aug 13 09:16 LibInput
+drwxr-xr-x 3 root root  80 Aug 13 09:18 ISO-Codes
+drwxr-xr-x 3 root root  80 Aug 13 09:19 LibXKlavier
+drwxr-xr-x 4 root root 100 Aug 13 09:20 XFCE4-Settings
+drwxr-xr-x 4 root root 100 Aug 13 09:22 XFCE4-Session
+drwxr-xr-x 4 root root 100 Aug 13 09:24 VTE
+drwxr-xr-x 3 root root  80 Aug 13 09:25 XFCE4-Terminal
+drwxr-xr-x 3 root root  80 Aug 13 09:27 XFDesktop
+drwxr-xr-x 3 root root  80 Aug 13 09:29 XFWM4
+drwxr-xr-x 3 root root  80 Aug 13 09:30 XFWM4-Themes
+drwxr-xr-x 3 root root  80 Aug 13 09:30 XFCE
+
+```
+
+CTRL + ALT + shift and select for Column mode selection using AwesomeWM in GitHub
+
+```
+Fuse
+UnionFS-Fuse
+DocBook-XML-DTD
+PCRE2
+Util-Linux
+LibXFCE4Util
+XFConf
+LibXFCE4UI
+EXO
+Garcon
+GTK-Doc
+LibGUdev
+LibWNCK
+XFCE4-Panel
+LibExif
+Thunar
+Thunar-Volman
+XFCE4-AppFinder
+UPower
+XFCE4-Power-Manager
+HwData
+LibWacom
+Check
+LibInput
+ISO-Codes
+LibXKlavier
+XFCE4-Settings
+XFCE4-Session
+VTE
+XFCE4-Terminal
+XFDesktop
+XFWM4
+XFWM4-Themes
+XFCE
 
 ```
