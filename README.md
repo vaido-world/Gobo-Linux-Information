@@ -478,6 +478,6 @@ InstallPackage XFDesktop-*
 InstallPackage XFWM4-*
 InstallPackage XFWM4-Themes-*
 InstallPackage XFCE-*
-
+ECHO Completed XFCE Installation.
 ```
 
