@@ -2,7 +2,7 @@
 
 `curl vaido.world/gobo/xfce.bash | bash`
 
-### Old
+# Old Notes and Archives of information and research
 
 CreatePackage # Gobo-Linux-Information
 
