@@ -515,6 +515,8 @@ This can be tested by starting AwesomeWM after XFCE installation and try to up t
 
 `Compile XFCE4-Mixer`
 
+https://github.com/gobolinux/Recipes/tree/master/XFCE4-Mixer
+
 ### CD-ROM is not working
 Unknown how to resolve for now.
 
