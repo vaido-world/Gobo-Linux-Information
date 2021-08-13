@@ -547,4 +547,7 @@ root@LiveCD /Programs/Google-Chrome-Stable/92.0.4515.131_1/bin]chmod u+s google-
 
 
 
-
+### XFCE Extras 
+Contains:  Xarchiver 
+https://github.com/gobolinux/Recipes/blob/effe66610cad8f33b66634a9e3656a278a567e0b/XFCE-Extras/4.6.1/Resources/Dependencies
+`Compile XFCE-Extras`
