@@ -513,6 +513,8 @@ And this setting is transferred to the startxfce session.
 
 This can be tested by starting AwesomeWM after XFCE installation and try to up the volume.
 
+`Compile XFCE4-Mixer`
+
 ### CD-ROM is not working
 Unknown how to resolve for now.
 
@@ -540,4 +542,7 @@ cd /Programs/Google-Chrome-Stable/92.0.4515.131_1/chrome
 
 ### I tried chmod the google chrome, but that didn't help
 root@LiveCD /Programs/Google-Chrome-Stable/92.0.4515.131_1/bin]chmod u+s google-chrome-stable 
+
+
+
 
