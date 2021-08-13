@@ -528,3 +528,6 @@ Copyright (c) 2008-2019
 Please report bugs to <https://bugzilla.xfce.org/>.
 
 ```
+
+### XFCE Visual Reference
+https://www.youtube.com/watch?v=9ABYlcmqQ-Q
