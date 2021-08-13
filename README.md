@@ -1,6 +1,6 @@
 ### Release
 
-curl vaido.world/gobo/xfce.bash
+`curl vaido.world/gobo/xfce.bash | bash`
 
 ### Old
 
