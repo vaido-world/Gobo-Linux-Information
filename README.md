@@ -537,3 +537,7 @@ https://www.youtube.com/watch?v=9ABYlcmqQ-Q
 ```
 cd /Programs/Google-Chrome-Stable/92.0.4515.131_1/chrome
 ```
+
+### I tried chmod the google chrome, but that didn't help
+root@LiveCD /Programs/Google-Chrome-Stable/92.0.4515.131_1/bin]chmod u+s google-chrome-stable 
+
