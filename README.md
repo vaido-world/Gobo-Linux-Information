@@ -512,3 +512,16 @@ And this setting is transferred to the startxfce session.
 
 
 This can be tested by starting AwesomeWM after XFCE installation and try to up the volume.
+
+### XFCE Version Installed.
+
+```
+root@LiveCD ~]xfce4-about -V
+xfce4-about 4.14.1 (Xfce 4.14)
+
+Copyright (c) 2008-2019
+	The Xfce development team. All rights reserved.
+
+Please report bugs to <https://bugzilla.xfce.org/>.
+
+```
