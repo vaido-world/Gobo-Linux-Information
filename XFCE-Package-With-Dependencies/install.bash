@@ -1,0 +1,36 @@
+InstallPackage Fuse-*
+InstallPackage UnionFS-Fuse-*
+InstallPackage DocBook-XML-DTD-*
+InstallPackage PCRE2-*
+InstallPackage Util-Linux-*
+InstallPackage LibXFCE4Util-*
+InstallPackage XFConf-*
+InstallPackage LibXFCE4UI-*
+InstallPackage EXO-*
+InstallPackage Garcon-*
+InstallPackage GTK-Doc-*
+InstallPackage LibGUdev-*
+InstallPackage LibWNCK-*
+InstallPackage XFCE4-Panel-*
+InstallPackage LibExif-*
+InstallPackage Thunar-*
+InstallPackage Thunar-Volman-*
+InstallPackage XFCE4-AppFinder-*
+InstallPackage UPower-*
+InstallPackage XFCE4-Power-Manager-*
+InstallPackage HwData-*
+InstallPackage LibWacom-*
+InstallPackage Check-*
+InstallPackage LibInput-*
+InstallPackage ISO-Codes-*
+InstallPackage LibXKlavier-*
+InstallPackage XFCE4-Settings-*
+InstallPackage XFCE4-Session-*
+InstallPackage VTE-*
+InstallPackage XFCE4-Terminal-*
+InstallPackage XFDesktop-*
+InstallPackage XFWM4-*
+InstallPackage XFWM4-Themes-*
+InstallPackage XFCE-*
+ECHO Completed XFCE Installation.
+ECHO Exit AwesomeWM and Type into terminal:   startxfce4
