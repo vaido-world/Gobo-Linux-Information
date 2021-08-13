@@ -495,6 +495,7 @@ ECHO Exit AwesomeWM and Type into terminal:   startxfce4
 
 
 
+
 ## Convert Text File to Unix From Dos
 https://stackoverflow.com/questions/16768776/convert-line-endings#comment52681661_16768848  
 `tr -d '\15\32' < install.bash > install-file-with-unix-line-endings.bash`   
@@ -502,3 +503,9 @@ https://stackoverflow.com/questions/16768776/convert-line-endings#comment5268166
 
 ## No audio in xfce
 https://forum.xfce.org/viewtopic.php?id=7499
+
+
+I think installing xfce-mixer and toggling unmute might work.
+
+The reason why compiling xfce from AwesomeWm the sound works is because AwesomeWM unmutes by default by setting volume
+And this setting is transferred to the startxfce session.
