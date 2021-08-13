@@ -479,5 +479,6 @@ InstallPackage XFWM4-*
 InstallPackage XFWM4-Themes-*
 InstallPackage XFCE-*
 ECHO Completed XFCE Installation.
+ECHO Exit AwesomeWM and Type into terminal:   startxfce4
 ```
 
