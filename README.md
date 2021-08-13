@@ -482,3 +482,7 @@ ECHO Completed XFCE Installation.
 ECHO Exit AwesomeWM and Type into terminal:   startxfce4
 ```
 
+
+## XFCE Utils
+`Compile xfce-utils`
+https://askubuntu.com/questions/210210/pkg-config-path-environment-variable
