@@ -493,3 +493,8 @@ ECHO Exit AwesomeWM and Type into terminal:   startxfce4
 `  Compile LibXFCEGUI4` https://askubuntu.com/questions/210210/pkg-config-path-environment-variable  
 `Compile xfce-utils`  
 
+
+
+## Convert Text File to Unix From Dos
+https://stackoverflow.com/questions/16768776/convert-line-endings#comment52681661_16768848  
+`tr -d '\15\32' < install.bash > install-file-with-unix-line-endings.bash`   
