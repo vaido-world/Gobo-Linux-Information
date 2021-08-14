@@ -1036,3 +1036,7 @@ Ffmpeg attached to keyboard binding
 
 #### Sudo and su alternatives
 https://superuser.com/questions/629819/alternative-for-sudo
+
+
+### XFCE 4.16 review
+https://www.debugpoint.com/2021/02/xfce-4-16-review/
