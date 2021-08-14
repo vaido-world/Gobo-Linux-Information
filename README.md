@@ -587,7 +587,7 @@ recipe_type=manifest
 # This url is just a dummy -- the Compile tool would not allow to make the recipe without it.
 url="http://archive.xfce.org/xfce/4.12/src/xfce4-appfinder-4.12.0.tar.bz2" 
 
-# Required to verify the integrity of the dummy file after download.
+# Required to verify the integrity of the dummy file after the download.
 file_size=459338
 file_md5=0b238b30686388c507c119b12664f1a1
 
