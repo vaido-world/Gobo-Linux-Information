@@ -577,3 +577,14 @@ XFCE.zip](https://github.com/vaido-world/gobo/files/6986040/XFCE.zip)
 
 ### Text Editor
 `Compile GEdit`
+
+
+### Creating new Recipes
+```
+MakeRecipe XFCERecipe http://4.14
+
+root@LiveCD master /Data/Compile/Recipes/XFCERecipe/4.14]ls
+Recipe  Resources
+
+```
+
