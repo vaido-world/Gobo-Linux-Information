@@ -586,5 +586,17 @@ MakeRecipe XFCERecipe http://4.14
 root@LiveCD master /Data/Compile/Recipes/XFCERecipe/4.14]ls
 Recipe  Resources
 
+
+root@LiveCD ~]Compile XFCERecipe
+Already up to date.
+Compile: Checking dependencies...
+Compile: Compiling XFCERecipe version 4.14.
+Compile: Running without dependency-based namespace (Runner not available).
+--2021-08-14 10:17:05--  http://4.14/
+Resolving 4.14 (4.14)... 4.0.0.14
+Connecting to 4.14 (4.14)|4.0.0.14|:80... 
+^CCompile: XFCERecipe 4.14 - Caught signal. Exiting...
+
+
 ```
 
