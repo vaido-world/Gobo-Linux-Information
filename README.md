@@ -1024,3 +1024,9 @@ https://www.xfce-look.org/p/1267839/
 #### Possible Iso file name
 
 xfce-gobolinux-gnu-linux-x86-x32.iso
+
+
+##### Screen recorder for xfce
+Needs to support keyboard bindingm
+
+Obs 
