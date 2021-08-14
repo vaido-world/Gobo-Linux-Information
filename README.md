@@ -1049,3 +1049,12 @@ https://superuser.com/questions/629819/alternative-for-sudo
 
 ### XFCE 4.16 review
 https://www.debugpoint.com/2021/02/xfce-4-16-review/
+
+
+
+### Use meta recipe type for xfce
+Advantage: all the recipes might be installed under a single directory.
+`--install-separately` should install seperately xfce packages if needed.  
+
+
+https://github.com/gobolinux/Documentation/wiki/Recipe-format-specification#manifest
