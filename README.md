@@ -598,6 +598,9 @@ file_md5=0b238b30686388c507c119b12664f1a1
 # that includes all recipes needed to have a full XFCE build. (Hugo Barrocas)
 ```
 
+[XFCE-Meta-Stable.zip](https://github.com/vaido-world/gobo/files/6987025/XFCE-Meta-Stable.zip)
+
+
 
 ### Text Editor
 
