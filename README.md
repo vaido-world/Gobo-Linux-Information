@@ -575,4 +575,5 @@ https://docs.xfce.org/xfce/xfdesktop/advanced
 XFCE.zip](https://github.com/vaido-world/gobo/files/6986040/XFCE.zip)
 
 
-### Compile GEdit
+### Text Editor
+`Compile GEdit`
