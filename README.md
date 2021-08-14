@@ -581,8 +581,17 @@ XFCE.zip](https://github.com/vaido-world/gobo/files/6986040/XFCE.zip)
 # Recipe (MakeRecipe) for XFCE by Jonas Karlsson <jonka750@student.liu.se>, on Fri Jun 2 23:48:33 CEST 2006
 compile_version=2.0
 
-recipe_type=manifest       # It's not a Meta recipe. All XFCE parts will be compiled separately, and can be updated individually. 
-url="http://example.com/"  # The "url" is just a dummy -- the Compile tool would not allow to make the recipe without it.
+# It's not a Meta recipe. All XFCE parts will be compiled separately, and can be updated individually. 
+recipe_type=manifest       
+
+# The "url" is just a dummy -- the Compile tool would not allow to make the recipe without it.
+url="http://archive.xfce.org/xfce/4.12/src/xfce4-appfinder-4.12.0.tar.bz2" 
+
+# Required to check the integrity of the file.
+file_size=459338
+file_md5=0b238b30686388c507c119b12664f1a1
+
+
 
 # Note: This is only a way of compiling all XFCE4 parts with one single command.
 # What really matters in this recipe is its Dependencies list, 
