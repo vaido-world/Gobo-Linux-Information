@@ -1030,3 +1030,6 @@ xfce-gobolinux-gnu-linux-x86-x32.iso
 Needs to support keyboard bindingm
 
 Obs 
+
+Ffmpeg attached to keyboard binding
+
