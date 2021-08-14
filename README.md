@@ -628,6 +628,8 @@ Connecting to 4.14 (4.14)|4.0.0.14|:80...
 
 
 # A working Google Chrome under Root using no sandbox
+Maybe installing fuse packages helped the AwesomeWM to launch Chrome
+
 ```
 InstallPackage ThirdPartyInstallers
 InstallPackage: Locating a binary package for ThirdPartyInstallers ...
