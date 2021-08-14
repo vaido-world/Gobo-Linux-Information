@@ -575,6 +575,21 @@ https://docs.xfce.org/xfce/xfdesktop/advanced
 XFCE.zip](https://github.com/vaido-world/gobo/files/6986040/XFCE.zip)
 
 
+```
+# Recipe for version 4.12.0.0 by Hugo Barrocas <barrocas75@gmail.com>, on Qui Out 20 15:07:49 UTC 2016
+# Based on recipe for version 4.6.1 by Jonas Karlsson <jonka750@student.liu.se>, on Mon Apr 20 10:08:56 CEST 2009
+# Recipe (MakeRecipe) for XFCE by Jonas Karlsson <jonka750@student.liu.se>, on Fri Jun 2 23:48:33 CEST 2006
+compile_version=2.0
+
+recipe_type=manifest       # It's not a Meta recipe. All XFCE parts will be compiled separately, and can be updated individually. 
+url="http://example.com/"  # The "url" is just a dummy -- the Compile tool would not allow to make the recipe without it.
+
+# Note: This is only a way of compiling all XFCE4 parts with one single command.
+# What really matters in this recipe is its Dependencies list, 
+# that includes all recipes needed to have a full XFCE build. (Hugo Barrocas)
+```
+
+
 ### Text Editor
 
 ```
