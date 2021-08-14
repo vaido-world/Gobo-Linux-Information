@@ -1067,3 +1067,6 @@ Advantage: all the recipes might be installed under a single directory.
 https://github.com/gobolinux/Documentation/wiki/Recipe-format-specification#manifest
 
 #### Compile Meta package can be made to depend on recipes that compile from the lastest source code
+
+
+# Drawing application pinta
