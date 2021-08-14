@@ -570,3 +570,6 @@ https://www.xfce.org/about/tour46
 https://docs.xfce.org/xfce/xfdesktop/advanced
 
 
+### Updated XFCE Recipe (untested)
+[![image](https://user-images.githubusercontent.com/21064622/129437893-acf7631f-c265-4610-a923-77f51826241b.png)
+XFCE.zip](https://github.com/vaido-world/gobo/files/6986040/XFCE.zip)
