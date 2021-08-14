@@ -1023,4 +1023,4 @@ https://www.xfce-look.org/p/1267839/
 
 #### Possible Iso file name
 
-xfce-gobolinux-gnu-linux-x86-32.iso
+xfce-gobolinux-gnu-linux-x86-x32.iso
