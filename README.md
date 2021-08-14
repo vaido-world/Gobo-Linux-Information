@@ -584,7 +584,7 @@ compile_version=2.0
 # It's not a Meta recipe. All XFCE parts will be compiled separately, and can be updated individually. 
 recipe_type=manifest       
 
-# This "url" is just a dummy -- the Compile tool would not allow to make the recipe without it.
+# This url is just a dummy -- the Compile tool would not allow to make the recipe without it.
 url="http://archive.xfce.org/xfce/4.12/src/xfce4-appfinder-4.12.0.tar.bz2" 
 
 # Required to verify the integrity of the file after download.
