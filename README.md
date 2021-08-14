@@ -624,3 +624,376 @@ Connecting to 4.14 (4.14)|4.0.0.14|:80...
 
 ```
 
+
+
+
+# A working Google Chrome under Root using no sandbox
+```
+InstallPackage ThirdPartyInstallers
+InstallPackage: Locating a binary package for ThirdPartyInstallers ...
+InstallPackage: Installing http://gobolinux.org/packages/016/ThirdPartyInstallers--2.1--x86_64.tar.bz2
+InstallPackage: Press Enter to continue or Ctrl-C to cancel.
+
+InstallPackage: Downloading package to /Data/Variable/tmp/ThirdPartyInstallers--2.1--x86_64.tar.bz2.
+--2021-08-14 11:09:27--  http://gobolinux.org/packages/016/ThirdPartyInstallers--2.1--x86_64.tar.bz2
+Resolving gobolinux.org (gobolinux.org)... 69.163.217.231
+Connecting to gobolinux.org (gobolinux.org)|69.163.217.231|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 21023 (21K) [application/x-tar]
+Saving to: ‘/Data/Variable/tmp/ThirdPartyInstallers--2.1--x86_64.tar.bz2’
+
+/Data/Variable/tmp/ 100%[=================>]  20.53K   122KB/s    in 0.2s    
+
+2021-08-14 11:09:27 (122 KB/s) - ‘/Data/Variable/tmp/ThirdPartyInstallers--2.1--x86_64.tar.bz2’ saved [21023/21023]
+
+InstallPackage: Installing ThirdPartyInstallers, version 2.1.
+InstallPackage: Uncompressing to /Programs...
+UpdateSettings: No settings exist
+SymlinkProgram: Symlinking ThirdPartyInstallers 2.1.
+SymlinkProgram: Symlinking global settings...
+SymlinkProgram: Symlinking tasks...
+SymlinkProgram: Storing variable files...
+SymlinkProgram: Symlinking libraries...
+SymlinkProgram: Symlinking headers...
+SymlinkProgram: Symlinking info...
+SymlinkProgram: Updating info dir...
+SymlinkProgram: Symlinking manuals...
+SymlinkProgram: Symlinking executables...
+SymlinkProgram: Processed 3 files.
+SymlinkProgram: Symlinking wrappers...
+SymlinkProgram: Symlinking libexec..
+SymlinkProgram: Symlinking shared...
+SymlinkProgram: Removing unused directories...
+SymlinkProgram: Done.
+InstallPackage: Checking dependencies...
+
+CheckDependencies: Cpio is not installed.
+CheckDependencies: Install official_package for Cpio 2.12 or skip this dependency? [I]Install/[S]Skip/[IA]Install All/[SA]Skip AllCA
+
+CheckDependencies: Cpio is not installed.
+CheckDependencies: Install official_package for Cpio 2.12 or skip this dependency? [I]Install/[S]Skip/[IA]Install All/[SA]Skip AllIA
+
+CheckDependencies: Dpkg is not installed.
+CheckDependencies: Dpkg 1.18.18 (official_package) will be Installed
+CheckDependencies: RPM is not installed.
+CheckDependencies: RPM 5.3.5 (official_package) will be InstalledInstallPackage: Downloading package to /Data/Variable/tmp/Cpio--2.12-r1--x86_64.tar.bz2.
+--2021-08-14 11:09:46--  http://gobolinux.org/packages/016/Cpio--2.12-r1--x86_64.tar.bz2
+Resolving gobolinux.org (gobolinux.org)... 69.163.217.231
+Connecting to gobolinux.org (gobolinux.org)|69.163.217.231|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1573283 (1.5M) [application/x-tar]
+Saving to: ‘/Data/Variable/tmp/Cpio--2.12-r1--x86_64.tar.bz2’
+
+/Data/Variable/tmp/ 100%[=================>]   1.50M  1.18MB/s    in 1.3s    
+
+2021-08-14 11:09:47 (1.18 MB/s) - ‘/Data/Variable/tmp/Cpio--2.12-r1--x86_64.tar.bz2’ saved [1573283/1573283]
+
+InstallPackage: Installing Cpio, version 2.12.
+InstallPackage: Uncompressing to /Programs...
+UpdateSettings: No settings exist
+SymlinkProgram: Symlinking Cpio 2.12.
+SymlinkProgram: Symlinking global settings...
+SymlinkProgram: Symlinking tasks...
+SymlinkProgram: Storing variable files...
+SymlinkProgram: Symlinking libraries...
+SymlinkProgram: Processed 1 file.
+SymlinkProgram: Updating library database (ldconfig)...
+SymlinkProgram: Symlinking headers...
+SymlinkProgram: Symlinking info...
+SymlinkProgram: Updating info dir...
+SymlinkProgram: Symlinking manuals...
+SymlinkProgram: Processed 1 file.
+SymlinkProgram: Conflict: /Programs/Tar/1.32/share/man/man8/rmt.8
+SymlinkProgram: Processed 0 files.
+SymlinkProgram: Symlinking executables...
+SymlinkProgram: Processed 1 file.
+SymlinkProgram: Symlinking wrappers...
+SymlinkProgram: Symlinking libexec..
+SymlinkProgram: Symlinking shared...
+SymlinkProgram: Conflict: /Programs/Tar/1.32/share/man/man8/rmt.8
+SymlinkProgram: Processed 27 files.
+SymlinkProgram: Removing unused directories...
+SymlinkProgram: Done.
+InstallPackage: Checking dependencies...
+InstallPackage: Removing downloaded package /Data/Variable/tmp/Cpio--2.12-r1--x86_64.tar.bz2.
+InstallPackage: Downloading package to /Data/Variable/tmp/Dpkg--1.18.18--x86_64.tar.bz2.
+--2021-08-14 11:09:57--  http://gobolinux.org/packages/016/Dpkg--1.18.18--x86_64.tar.bz2
+Resolving gobolinux.org (gobolinux.org)... 69.163.217.231
+Connecting to gobolinux.org (gobolinux.org)|69.163.217.231|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2105680 (2.0M) [application/x-tar]
+Saving to: ‘/Data/Variable/tmp/Dpkg--1.18.18--x86_64.tar.bz2’
+
+/Data/Variable/tmp/ 100%[=================>]   2.01M  1.61MB/s    in 1.2s    
+
+2021-08-14 11:09:59 (1.61 MB/s) - ‘/Data/Variable/tmp/Dpkg--1.18.18--x86_64.tar.bz2’ saved [2105680/2105680]
+
+InstallPackage: Installing Dpkg, version 1.18.18.
+InstallPackage: Uncompressing to /Programs...
+UpdateSettings: No settings exist
+SymlinkProgram: Symlinking Dpkg 1.18.18.
+SymlinkProgram: Symlinking global settings...
+SymlinkProgram: Symlinking tasks...
+SymlinkProgram: Storing variable files...
+SymlinkProgram: Symlinking libraries...
+SymlinkProgram: Processed 6 files.
+SymlinkProgram: Updating library database (ldconfig)...
+SymlinkProgram: Correcting directory references...
+SymlinkProgram: Symlinking headers...
+SymlinkProgram: Processed 1 file.
+SymlinkProgram: Symlinking info...
+SymlinkProgram: Updating info dir...
+SymlinkProgram: Symlinking manuals...
+SymlinkProgram: Processed 25 files.
+SymlinkProgram: Processed 42 files.
+SymlinkProgram: Processed 25 files.
+SymlinkProgram: Symlinking executables...
+SymlinkProgram: Processed 25 files.
+SymlinkProgram: Symlinking wrappers...
+SymlinkProgram: Symlinking libexec..
+SymlinkProgram: Symlinking shared...
+SymlinkProgram: Creating expanded directory 'tl'...
+SymlinkProgram: Creating expanded directory 'LC_MESSAGES'...
+SymlinkProgram: Processed 143 files.
+SymlinkProgram: Removing unused directories...
+SymlinkProgram: Done.
+InstallPackage: Checking dependencies...
+InstallPackage: Removing downloaded package /Data/Variable/tmp/Dpkg--1.18.18--x86_64.tar.bz2.
+InstallPackage: Downloading package to /Data/Variable/tmp/RPM--5.3.5--x86_64.tar.bz2.
+--2021-08-14 11:10:10--  http://gobolinux.org/packages/016/RPM--5.3.5--x86_64.tar.bz2
+Resolving gobolinux.org (gobolinux.org)... 69.163.217.231
+Connecting to gobolinux.org (gobolinux.org)|69.163.217.231|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 32142765 (31M) [application/x-tar]
+Saving to: ‘/Data/Variable/tmp/RPM--5.3.5--x86_64.tar.bz2’
+
+/Data/Variable/tmp/ 100%[=================>]  30.65M  3.23MB/s    in 10s     
+
+2021-08-14 11:10:21 (2.94 MB/s) - ‘/Data/Variable/tmp/RPM--5.3.5--x86_64.tar.bz2’ saved [32142765/32142765]
+
+InstallPackage: Installing RPM, version 5.3.5.
+InstallPackage: Uncompressing to /Programs...
+UpdateSettings: No settings exist
+SymlinkProgram: Symlinking RPM 5.3.5.
+SymlinkProgram: Symlinking global settings...
+SymlinkProgram: Symlinking tasks...
+SymlinkProgram: Storing variable files...
+SymlinkProgram: Symlinking libraries...
+SymlinkProgram: Processed 26 files.
+SymlinkProgram: Updating library database (ldconfig)...
+SymlinkProgram: Correcting directory references...
+SymlinkProgram: Symlinking headers...
+SymlinkProgram: Processed 1 file.
+SymlinkProgram: Symlinking info...
+SymlinkProgram: Updating info dir...
+SymlinkProgram: Symlinking manuals...
+SymlinkProgram: Processed 2 files.
+SymlinkProgram: Processed 7 files.
+SymlinkProgram: Symlinking executables...
+SymlinkProgram: Processed 5 files.
+SymlinkProgram: Symlinking wrappers...
+SymlinkProgram: Symlinking libexec..
+SymlinkProgram: Symlinking shared...
+SymlinkProgram: Creating expanded directory 'man8'...
+SymlinkProgram: Processed 43 files.
+SymlinkProgram: The program wishes to install files to these unmanaged locations:
+/Data/Variable/lib/rpm
+SymlinkProgram: Do you want to install the unmanaged files? [Y/n]
+Y
+SymlinkProgram: Installing unmanaged files...
+SymlinkProgram: Removing unused directories...
+SymlinkProgram: Done.
+InstallPackage: Checking dependencies...
+
+CheckDependencies: BeeCrypt is not installed.
+CheckDependencies: Install official_package for BeeCrypt 4.2.1 or skip this dependency? [I]Install/[S]Skip/[IA]Install All/[SA]Skip AllIA
+
+CheckDependencies: Neon is not installed.
+CheckDependencies: Neon 0.30.0 (official_package) will be InstalledInstallPackage: Downloading package to /Data/Variable/tmp/BeeCrypt--4.2.1--x86_64.tar.bz2.
+--2021-08-14 11:10:43--  http://gobolinux.org/packages/016/BeeCrypt--4.2.1--x86_64.tar.bz2
+Resolving gobolinux.org (gobolinux.org)... 69.163.217.231
+Connecting to gobolinux.org (gobolinux.org)|69.163.217.231|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 5624580 (5.4M) [application/x-tar]
+Saving to: ‘/Data/Variable/tmp/BeeCrypt--4.2.1--x86_64.tar.bz2’
+
+/Data/Variable/tmp/ 100%[=================>]   5.36M  2.13MB/s    in 2.5s    
+
+2021-08-14 11:10:45 (2.13 MB/s) - ‘/Data/Variable/tmp/BeeCrypt--4.2.1--x86_64.tar.bz2’ saved [5624580/5624580]
+
+InstallPackage: Installing BeeCrypt, version 4.2.1.
+InstallPackage: Uncompressing to /Programs...
+UpdateSettings: No settings exist
+SymlinkProgram: Symlinking BeeCrypt 4.2.1.
+SymlinkProgram: Symlinking global settings...
+SymlinkProgram: Symlinking tasks...
+SymlinkProgram: Storing variable files...
+SymlinkProgram: Symlinking libraries...
+SymlinkProgram: Processed 11 files.
+SymlinkProgram: Updating library database (ldconfig)...
+SymlinkProgram: Correcting directory references...
+SymlinkProgram: Symlinking headers...
+SymlinkProgram: Conflict: /Programs/LibMD/1.0.1/include/md4.h
+SymlinkProgram: Conflict: /Programs/LibMD/1.0.1/include/sha1.h
+SymlinkProgram: Conflict: /Programs/LibMD/1.0.1/include/sha256.h
+SymlinkProgram: Conflict: /Programs/LibMD/1.0.1/include/md5.h
+SymlinkProgram: Conflict: /Programs/LibMD/1.0.1/include/sha512.h
+SymlinkProgram: Creating expanded directory 'c++'...
+SymlinkProgram: Processed 62 files.
+SymlinkProgram: Symlinking info...
+SymlinkProgram: Updating info dir...
+SymlinkProgram: Symlinking manuals...
+SymlinkProgram: Symlinking executables...
+SymlinkProgram: Symlinking wrappers...
+SymlinkProgram: Symlinking libexec..
+SymlinkProgram: Symlinking shared...
+SymlinkProgram: Removing unused directories...
+SymlinkProgram: Done.
+InstallPackage: Checking dependencies...
+InstallPackage: Removing downloaded package /Data/Variable/tmp/BeeCrypt--4.2.1--x86_64.tar.bz2.
+InstallPackage: Downloading package to /Data/Variable/tmp/Neon--0.30.0-r1--x86_64.tar.bz2.
+--2021-08-14 11:10:57--  http://gobolinux.org/packages/016/Neon--0.30.0-r1--x86_64.tar.bz2
+Resolving gobolinux.org (gobolinux.org)... 69.163.217.231
+Connecting to gobolinux.org (gobolinux.org)|69.163.217.231|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2208745 (2.1M) [application/x-tar]
+Saving to: ‘/Data/Variable/tmp/Neon--0.30.0-r1--x86_64.tar.bz2’
+
+/Data/Variable/tmp/ 100%[=================>]   2.11M  1.46MB/s    in 1.4s    
+
+2021-08-14 11:10:59 (1.46 MB/s) - ‘/Data/Variable/tmp/Neon--0.30.0-r1--x86_64.tar.bz2’ saved [2208745/2208745]
+
+InstallPackage: Installing Neon, version 0.30.0.
+InstallPackage: Uncompressing to /Programs...
+UpdateSettings: No settings exist
+SymlinkProgram: Symlinking Neon 0.30.0.
+SymlinkProgram: Symlinking global settings...
+SymlinkProgram: Symlinking tasks...
+SymlinkProgram: Storing variable files...
+SymlinkProgram: Symlinking libraries...
+SymlinkProgram: Processed 6 files.
+SymlinkProgram: Updating library database (ldconfig)...
+SymlinkProgram: Correcting directory references...
+SymlinkProgram: Symlinking headers...
+SymlinkProgram: Processed 1 file.
+SymlinkProgram: Symlinking info...
+SymlinkProgram: Updating info dir...
+SymlinkProgram: Symlinking manuals...
+SymlinkProgram: Processed 1 file.
+SymlinkProgram: Processed 97 files.
+SymlinkProgram: Symlinking executables...
+SymlinkProgram: Processed 1 file.
+SymlinkProgram: Symlinking wrappers...
+SymlinkProgram: Symlinking libexec..
+SymlinkProgram: Symlinking shared...
+SymlinkProgram: Processed 108 files.
+SymlinkProgram: Removing unused directories...
+SymlinkProgram: Done.
+InstallPackage: Checking dependencies...
+InstallPackage: Removing downloaded package /Data/Variable/tmp/Neon--0.30.0-r1--x86_64.tar.bz2.
+InstallPackage: Removing downloaded package /Data/Variable/tmp/RPM--5.3.5--x86_64.tar.bz2.
+InstallPackage: Removing downloaded package /Data/Variable/tmp/ThirdPartyInstallers--2.1--x86_64.tar.bz2.
+root@LiveCD ~]cd Downloads
+root@LiveCD ~/Downloads]ThirdPartyInstaller google-chrome-stable_current_amd64.deb 
+ThirdPartyInstaller: Processing google-chrome-stable_current_amd64.deb
+ThirdPartyInstaller: Program name is Google-Chrome-Stable
+ThirdPartyInstaller: Extracting DEB payload.
+ThirdPartyInstaller: Flattening directory structure.
+ThirdPartyInstaller: Populating Resources.
+ThirdPartyInstaller: Processing dependencies.
+ThirdPartyInstaller: Searching the remote DEB database for the package providing fonts-liberation
+ThirdPartyInstaller: Searching the remote DEB database for the package providing libasound2 >= 1.0.16
+ThirdPartyInstaller: Searching the remote DEB database for the package providing libatk-bridge2.0-0 >= 2.5.3
+ThirdPartyInstaller: Searching the remote DEB database for the package providing libatk1.0-0 >= 2.2.0
+ThirdPartyInstaller: Searching the remote DEB database for the package providing libatspi2.0-0 >= 2.9.90
+ThirdPartyInstaller: Searching the remote DEB database for the package providing libc6 >= 2.17
+ThirdPartyInstaller: Searching the remote DEB database for the package providing libcairo2 >= 1.6.0
+ThirdPartyInstaller: Searching the remote DEB database for the package providing libcups2 >= 1.4.0
+ThirdPartyInstaller: Searching the remote DEB database for the package providing libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3
+ThirdPartyInstaller: Searching the remote DEB database for the package providing libdbus-1-3 >= 1.5.12
+ThirdPartyInstaller: Searching the remote DEB database for the package providing libdrm2 >= 2.4.38
+ThirdPartyInstaller: Searching the remote DEB database for the package providing libexpat1 >= 2.0.1
+ThirdPartyInstaller: Searching the remote DEB database for the package providing libgbm1 >= 8.1~0
+ThirdPartyInstaller: Searching the remote DEB database for the package providing libgcc1 >= 1:3.0
+ThirdPartyInstaller: Searching the remote DEB database for the package providing libglib2.0-0 >= 2.39.4
+ThirdPartyInstaller: Searching the remote DEB database for the package providing libgtk-3-0 >= 3.9.10 | libgtk-4-1
+ThirdPartyInstaller: Searching the remote DEB database for the package providing libnspr4 >= 2:4.9-2~
+ThirdPartyInstaller: Searching the remote DEB database for the package providing libnss3 >= 2:3.22
+ThirdPartyInstaller: Searching the remote DEB database for the package providing libpango-1.0-0 >= 1.14.0
+ThirdPartyInstaller: Searching the remote DEB database for the package providing libx11-6 >= 2:1.4.99.1
+ThirdPartyInstaller: Searching the remote DEB database for the package providing libxcb1 >= 1.9.2
+ThirdPartyInstaller: Searching the remote DEB database for the package providing libxcomposite1 >= 1:0.4.4-1
+ThirdPartyInstaller: Searching the remote DEB database for the package providing libxdamage1 >= 1:1.1
+ThirdPartyInstaller: Searching the remote DEB database for the package providing libxext6
+ThirdPartyInstaller: Searching the remote DEB database for the package providing libxfixes3
+ThirdPartyInstaller: Searching the remote DEB database for the package providing libxkbcommon0 >= 0.4.1
+ThirdPartyInstaller: Searching the remote DEB database for the package providing libxrandr2
+ThirdPartyInstaller: Searching the remote DEB database for the package providing libxshmfence1
+ThirdPartyInstaller: Searching the remote DEB database for the package providing xdg-utils >= 1.0.2
+ThirdPartyInstaller: Done.
+root@LiveCD ~/Downloads]SymlinkProgram Google-Chrome-Stable
+SymlinkProgram: Symlinking Google-Chrome-Stable 92.0.4515.131_1.
+SymlinkProgram: Symlinking global settings...
+SymlinkProgram: Symlinking tasks...
+SymlinkProgram: Storing variable files...
+SymlinkProgram: Symlinking libraries...
+SymlinkProgram: Symlinking headers...
+SymlinkProgram: Symlinking info...
+SymlinkProgram: Updating info dir...
+SymlinkProgram: Symlinking manuals...
+SymlinkProgram: Processed 2 files.
+SymlinkProgram: Symlinking executables...
+SymlinkProgram: Processed 1 file.
+SymlinkProgram: Symlinking wrappers...
+SymlinkProgram: Symlinking libexec..
+SymlinkProgram: Symlinking shared...
+SymlinkProgram: Processed 7 files.
+SymlinkProgram: The program wishes to install files to these unmanaged locations:
+/opt/google
+SymlinkProgram: Do you want to install the unmanaged files? [Y/n]
+Y
+SymlinkProgram: Installing unmanaged files...
+SymlinkProgram: Removing unused directories...
+SymlinkProgram: Done.
+root@LiveCD ~/Downloads]google-chrome-stable
+[25954:25954:0814/111256.609684:ERROR:zygote_host_impl_linux.cc(90)] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.
+root@LiveCD ~/Downloads]google-chrome-stable --no-sandbox
+[26033:26033:0814/111304.136281:ERROR:browser_dm_token_storage_linux.cc(94)] Error: /etc/machine-id contains 0 characters (32 were expected).
+[26033:26128:0814/111304.254036:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[26033:26128:0814/111304.254224:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[26033:26148:0814/111304.317417:ERROR:object_proxy.cc(622)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[26033:26148:0814/111304.317610:ERROR:object_proxy.cc(622)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[26033:26148:0814/111304.317763:ERROR:object_proxy.cc(622)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+mesa: for the   --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the   --global-isel-abort option: may only occur zero or one times!
+[26126:26126:0814/111304.664286:ERROR:sandbox_linux.cc(374)] InitializeSandbox() called with multiple threads in process gpu-process.
+[26033:26128:0814/111314.340478:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[26033:26128:0814/111314.340566:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[26033:26128:0814/111351.673237:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[26033:26128:0814/111351.673278:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[26033:26128:0814/111351.673293:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[26033:26128:0814/111351.673824:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[26033:26128:0814/111351.673860:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[26033:26128:0814/111351.673885:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[26033:26128:0814/111351.673925:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[26033:26128:0814/111351.673949:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[26033:26128:0814/111351.673972:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[26033:26128:0814/111351.673996:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[26033:26128:0814/111351.674021:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[26033:26128:0814/111351.674044:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[26033:26128:0814/111351.674068:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[26033:26128:0814/111351.674092:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[26033:26128:0814/111351.674116:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[26033:26128:0814/111351.674141:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[26033:26128:0814/111351.674164:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[26033:26128:0814/111351.757632:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[26033:26128:0814/111351.757730:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[26033:26128:0814/111405.950230:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[26033:26128:0814/111405.950288:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[26033:26128:0814/111405.950316:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[26033:26128:0814/111407.590734:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[26033:26128:0814/111407.590851:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[26033:26128:0814/111407.590911:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+
+```
+
