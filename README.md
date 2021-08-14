@@ -600,6 +600,10 @@ file_md5=0b238b30686388c507c119b12664f1a1
 
 [XFCE-Meta-Stable.zip](https://github.com/vaido-world/gobo/files/6987025/XFCE-Meta-Stable.zip)
 
+#### Updated with dependencies
+[XFCE-Meta-Stable.zip](https://github.com/vaido-world/gobo/files/6987052/XFCE-Meta-Stable.zip)
+
+
 
 
 ### Text Editor
