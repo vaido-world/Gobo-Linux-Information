@@ -576,7 +576,31 @@ XFCE.zip](https://github.com/vaido-world/gobo/files/6986040/XFCE.zip)
 
 
 ### Text Editor
-`Compile GEdit`
+
+```
+InstallPackage https://gobolinux.org/packages/017/Fuse--2.9.7--x86_64.tar.bz2
+InstallPackage https://gobolinux.org/packages/017/UnionFS-Fuse--2.1--x86_64.tar.bz2
+Compile GEdit
+```
+
+```
+checking for DEP... configure: error: Package requirements (atk >= 1.13.0 	gtk+-2.0 >= 2.9.4) were not met:
+
+No package 'gtk+-2.0' found
+
+Consider adjusting the PKG_CONFIG_PATH environment variable if you
+installed software in a non-standard prefix.
+
+Alternatively, you may set the environment variables DEP_CFLAGS
+and DEP_LIBS to avoid the need to call pkg-config.
+See the pkg-config man page for more details.
+
+PrepareProgram: configure failed.
+Compile: Gail 1.22.3 - Configuration failed.
+
+```
+
+
 
 
 ### Creating new Recipes
