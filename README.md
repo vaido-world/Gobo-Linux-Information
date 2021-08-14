@@ -1033,3 +1033,6 @@ Obs
 
 Ffmpeg attached to keyboard binding
 
+
+#### Sudo and su alternatives
+https://superuser.com/questions/629819/alternative-for-sudo
