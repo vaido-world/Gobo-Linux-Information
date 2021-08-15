@@ -1136,4 +1136,8 @@ Compile: Portmap 5beta - Build process failed.
 ```
 
 ### To resolve
+```
+Compile Glibc
+Compile Portmap
+```
 https://github.com/lattera/glibc/blob/master/sunrpc/rpc/rpc.h
