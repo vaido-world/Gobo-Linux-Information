@@ -1097,6 +1097,14 @@ https://github.com/gobolinux/Documentation/wiki/Recipe-format-specification#mani
 root@LiveCD /Programs/GTK+]ls
 3.22.30  3.24.13  Current  Settings
 
+
+## Default Preinstalled GLIB is 
+https://github.com/gobolinux/Recipes/tree/master/GLib
+```
+root@LiveCD /Programs/GLib]ls
+2.63.5  Current
+```
+
 ```
 
 ## Compile glib
