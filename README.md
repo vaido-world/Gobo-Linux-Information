@@ -616,6 +616,12 @@ sed -i '/delegateSystem/c\' /Data/Variable/lib/xml/catalog
 sed -i '/delegateURI/c\' /Data/Variable/lib/xml/catalog
 Compile Docbook-xml-dtd --no-dependencies --batch
 
+# https://github.com/gobolinux/Recipes/tree/master/Glibc
+Compile Glibc
+Compile Portmap
+# Compile 
+
+
 
 Compile XFCE-Meta-Stable
 
