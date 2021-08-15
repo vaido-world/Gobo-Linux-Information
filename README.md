@@ -606,7 +606,15 @@ file_md5=0b238b30686388c507c119b12664f1a1
 ```
 unzip XFCE-Meta-Stable.zip
 mv XFCE-Meta-Stable/ /Data/Compile/Recipes/
+
+InstallPackage https://gobolinux.org/packages/017/Fuse--2.9.7--x86_64.tar.bz2
+InstallPackage https://gobolinux.org/packages/017/UnionFS-Fuse--2.1--x86_64.tar.bz2
+Compile XFCE-Meta-Stable
+
+
+rm -rf XFCE-Meta-Stable
 ```
+
 
 
 ### Text Editor
