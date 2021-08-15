@@ -1134,3 +1134,6 @@ make: *** [<builtin>: portmap.o] Error 1
 Compile: Portmap 5beta - Build process failed.
 
 ```
+
+### To resolve
+https://github.com/lattera/glibc/blob/master/sunrpc/rpc/rpc.h
