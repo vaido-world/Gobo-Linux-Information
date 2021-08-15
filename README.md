@@ -1091,6 +1091,14 @@ https://github.com/gobolinux/Documentation/wiki/Recipe-format-specification#mani
 # Drawing application pinta
 
 
+
+## GoboLinux Live CD Default installed GTK+ is 3.24.13
+```
+root@LiveCD /Programs/GTK+]ls
+3.22.30  3.24.13  Current  Settings
+
+```
+
 ## Compile glib
 ```
 root@LiveCD ~/Downloads]Compile Portmap
