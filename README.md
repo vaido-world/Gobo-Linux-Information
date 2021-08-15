@@ -619,8 +619,10 @@ Compile Docbook-xml-dtd --no-dependencies --batch
 # https://github.com/gobolinux/Recipes/tree/master/Glibc
 Compile Glibc
 Compile Portmap
-# Compile 
 
+
+# https://github.com/gobolinux/Recipes/tree/master/GLib
+# Compile GLib
 
 
 Compile XFCE-Meta-Stable
