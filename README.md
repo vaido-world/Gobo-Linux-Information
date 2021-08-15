@@ -1089,3 +1089,24 @@ https://github.com/gobolinux/Documentation/wiki/Recipe-format-specification#mani
 
 
 # Drawing application pinta
+
+
+## Compile glib
+```
+root@LiveCD ~/Downloads]Compile Portmap
+Already up to date.
+Compile: Checking dependencies...
+Compile: Compiling Portmap version 5beta.
+Compile: Running without dependency-based namespace (Runner not available).
+Compile: Directory '/Data/Compile/Sources/portmap_5beta' already exists.
+Compile: What to do? [R]emove and reunpack/[B]ackup and reunpack/[U]se it/[C]ancel.
+U
+cc -Wall  -DHOSTS_ACCESS -DCHECK_PORT  -DFACILITY=LOG_DAEMON  -DIGNORE_SIGCHLD    -O2    -c -o portmap.o portmap.c
+portmap.c:86:10: fatal error: rpc/rpc.h: No such file or directory
+   86 | #include <rpc/rpc.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+make: *** [<builtin>: portmap.o] Error 1
+Compile: Portmap 5beta - Build process failed.
+
+```
