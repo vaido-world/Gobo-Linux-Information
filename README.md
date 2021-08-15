@@ -609,6 +609,14 @@ mv XFCE-Meta-Stable/ /Data/Compile/Recipes/
 
 InstallPackage https://gobolinux.org/packages/017/Fuse--2.9.7--x86_64.tar.bz2
 InstallPackage https://gobolinux.org/packages/017/UnionFS-Fuse--2.1--x86_64.tar.bz2
+
+
+sed -i '/delegatePublic/c\' /Data/Variable/lib/xml/catalog  
+sed -i '/delegateSystem/c\' /Data/Variable/lib/xml/catalog  
+sed -i '/delegateURI/c\' /Data/Variable/lib/xml/catalog
+Compile Docbook-xml-dtd --no-dependencies --batch
+
+
 Compile XFCE-Meta-Stable
 
 
