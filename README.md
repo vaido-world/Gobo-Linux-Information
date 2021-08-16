@@ -1157,3 +1157,18 @@ CheckDependencies: GLib is installed, but version 2.63.5 does not match given de
 CheckDependencies: Compile recipe for GLib 2.43.4 or skip this dependency? [C]Compile/[S]Skip/[CA]Compile All/[SA]Skip All
 
 ```
+
+
+#### This is where the Builded files are stored before installing the program
+```
+root@LiveCD master /Data/Compile/Recipes/Glibcnew/2.34]find / -name "libc.so.6"                                    
+/Data/Compile/Sources/glibc-2.34/_build/libc.so.6
+/Data/Variable/run/rootfsbase/Programs/Glibc/2.30/lib/libc.so.6
+/Data/Variable/run/rootfsbase/System/Index/lib/libc.so.6
+/Data/Variable/run/overlayfs/Programs/Glibcnew/2.34/.SandboxInstall_Root/System/Index/lib/libc.so.6
+/Data/Variable/run/overlayfs/Data/Compile/Sources/glibc-2.34/_build/libc.so.6
+/Programs/Glibc/2.30/lib/libc.so.6
+/Programs/Glibcnew/2.34/.SandboxInstall_Root/System/Index/lib/libc.so.6
+/System/Index/lib/libc.so.6
+
+```
