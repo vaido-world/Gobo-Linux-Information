@@ -1172,3 +1172,7 @@ root@LiveCD master /Data/Compile/Recipes/Glibcnew/2.34]find / -name "libc.so.6"
 /System/Index/lib/libc.so.6
 
 ```
+
+
+#### Some information on resolving Portmap installation
+https://superuser.com/questions/1533171/rpc-header-not-found-despite-being-installed
