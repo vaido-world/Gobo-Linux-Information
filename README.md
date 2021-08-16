@@ -1145,3 +1145,15 @@ Compile Glibc
 Compile Portmap
 ```
 https://github.com/lattera/glibc/blob/master/sunrpc/rpc/rpc.h
+
+
+
+#### These are versions used by XFCE Stable Recipe 4.14
+```
+CheckDependencies: GTK+ is installed, but version 3.24.13 does not match given dependency.
+CheckDependencies: Compile recipe for GTK+ 3.22.30 or skip this dependency? [C]Compile/[S]Skip/[CA]Compile All/[SA]Skip AllS
+
+CheckDependencies: GLib is installed, but version 2.63.5 does not match given dependency.
+CheckDependencies: Compile recipe for GLib 2.43.4 or skip this dependency? [C]Compile/[S]Skip/[CA]Compile All/[SA]Skip All
+
+```
