@@ -1176,3 +1176,7 @@ root@LiveCD master /Data/Compile/Recipes/Glibcnew/2.34]find / -name "libc.so.6"
 
 #### Some information on resolving Portmap installation
 https://superuser.com/questions/1533171/rpc-header-not-found-despite-being-installed
+
+
+### Glibc
+https://stackoverflow.com/questions/8004241/how-to-compile-glibc-32bit-on-an-x86-64-machine/8074427#8074427
