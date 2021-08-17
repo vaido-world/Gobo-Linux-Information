@@ -1180,3 +1180,9 @@ https://superuser.com/questions/1533171/rpc-header-not-found-despite-being-insta
 
 ### Glibc
 https://stackoverflow.com/questions/8004241/how-to-compile-glibc-32bit-on-an-x86-64-machine/8074427#8074427
+
+
+### Glibc 
+Directories while compiling:  
+`/Programs/Glibc/2.30-safelinking/`    In progress files of Glibc?   
+`/Data/Compile/Sources/glibc-2.30/`    Extracted Source Code of Glibc
