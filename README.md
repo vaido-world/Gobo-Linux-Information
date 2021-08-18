@@ -1186,3 +1186,8 @@ https://stackoverflow.com/questions/8004241/how-to-compile-glibc-32bit-on-an-x86
 Directories while compiling:  
 `/Programs/Glibc/2.30-safelinking/`    In progress files of Glibc?   
 `/Data/Compile/Sources/glibc-2.30/`    Extracted Source Code of Glibc
+
+
+### Location of Downloads for Root User on Live Cd
+
+`/Data/Variable/run/overlayfs/Users/root/Downloads/`
