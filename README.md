@@ -1191,3 +1191,11 @@ Directories while compiling:
 ### Location of Downloads for Root User on Live Cd
 
 `/Data/Variable/run/overlayfs/Users/root/Downloads/`
+
+
+### Log the terminal for longer 
+https://unix.stackexchange.com/questions/483318/urxvt-how-to-increase-the-amount-of-lines-i-can-scroll-back
+```
+urxvt -sl 200000
+
+```
