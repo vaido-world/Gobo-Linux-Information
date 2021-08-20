@@ -1,3 +1,4 @@
+
 ### Release
 
 `curl vaido.world/gobo/xfce.bash | bash`
@@ -1199,3 +1200,6 @@ https://unix.stackexchange.com/questions/483318/urxvt-how-to-increase-the-amount
 urxvt -sl 200000
 
 ```
+
+
+![IMG_20210820_115902](https://user-images.githubusercontent.com/21064622/130220394-38d54f27-5a65-4472-b37f-909e5e9b286b.jpg)
