@@ -1,3 +1,17 @@
+InstallPackage https://gobolinux.org/packages/017/Fuse--2.9.7--x86_64.tar.bz2
+InstallPackage https://gobolinux.org/packages/017/UnionFS-Fuse--2.1--x86_64.tar.bz2
+
+
+sed -i '/delegatePublic/c\' /Data/Variable/lib/xml/catalog  
+sed -i '/delegateSystem/c\' /Data/Variable/lib/xml/catalog  
+sed -i '/delegateURI/c\' /Data/Variable/lib/xml/catalog
+Compile Docbook-xml-dtd --no-dependencies --batch
+
+
+Compile PCRE2  
+Compile util-linux
+
+
 Compile LibXFCE4Util 4.14.0
 Compile XFConf 4.14.4
 Compile LibXFCE4UI 4.14.1
