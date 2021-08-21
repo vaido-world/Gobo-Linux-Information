@@ -1203,3 +1203,7 @@ urxvt -sl 200000
 
 
 ![IMG_20210820_115902](https://user-images.githubusercontent.com/21064622/130220394-38d54f27-5a65-4472-b37f-909e5e9b286b.jpg)
+
+---
+### Regulate the sound
+https://blog.chapagain.com.np/ubuntu-linux-increase-decrease-volume-from-command-line-keyboard-shortcut/
